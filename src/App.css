@@ -1,3 +1,81 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 75px;
+}
+h2 {
+  font-size: 1.45rem;
+  font-family: cursive;
+  font-weight: bold;
+  margin: 0;
+}
+h5 {
+  font-size: 0.65rem;
+  color: grey;
+  margin: 0;
+}
+.button-list {
+  margin-left: 50%;
+  align-content: center;
+  margin-top: 10px;
+}
+#title-container{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: auto;
+}
+#print-icon{
+  align-self: flex-end;
+  margin-left: 50%;
+}
+h1 {
+  font-size: 3rem;
+  order: 1;
+  margin: 0;
+}
+h3 {
+  color: grey;
+  order: 1;
+  margin: 0;
+}
+.container > p {
+  font-size: 1.2rem;
+  text-indent: 5%;
+  margin: 10px;
+  color: grey;
+}
+.ingredient-panel {
+  background-image: url('./assets/list-bg.png');
+  height: 300px;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+.author-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 75px;
+}
+h4{
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.share-button {
+  font-size: 1.25rem;
+  background-color: burlywood;
+  height: 40px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+}
+
 .App {
   text-align: center;
 }

@@ -14,13 +14,17 @@ class Header extends Component {
     render() { 
         return ( 
             <header>
-                <img src={logo} alt='logo'></img>
-                <h2>
-                    Delicious
-                </h2>
-                <h5>
-                    The Best Food Blog On The Web
-                </h5>
+                <div>
+                    <img src={logo} alt='logo'></img>
+                </div>    
+                <div>
+                    <h2>
+                        Delicious
+                    </h2>
+                    <h5>
+                        The Best Food Blog On The Web
+                    </h5>
+                </div>    
                 <div className= 'button-list'>
                     <img src={fbIcon} alt='fb-icon'></img>
                     <img src={twitIcon} alt='twit-icon'></img>

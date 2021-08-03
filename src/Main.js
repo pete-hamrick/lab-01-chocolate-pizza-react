@@ -9,13 +9,17 @@ class Main extends Component {
     render() { 
         return ( 
             <div className='container'>
-                <h1>
-                    Chocolate Pizza
-                </h1>
-                <h3>
-                    Posted on 15 DEC 2013 / Desserts
-                </h3>
-                <img src={printIcon} alt='print-icon'></img>
+                <div id='title-container'>
+                    <div>
+                        <h1>
+                            Chocolate Pizza
+                        </h1>
+                        <h3>
+                            Posted on 15 DEC 2013 / Desserts
+                        </h3>
+                    </div>    
+                    <img id='print-icon' src={printIcon} alt='print-icon'></img>
+                </div> 
                 <img src={chocoPizza} alt='choco-pizza'></img>
                 <p>
                     For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.
