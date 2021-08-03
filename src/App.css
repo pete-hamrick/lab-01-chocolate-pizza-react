@@ -51,9 +51,18 @@ h3 {
   height: 300px;
   font-size: 1.25rem;
   display: flex;
+  position: relative;
   flex-direction: column;
   flex-wrap: wrap;
-  position: relative;
+  width: auto;
+  /* margin-top: 20px; */
+}
+.ingredient-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 1.5rem;
 }
 .author-section {
   display: flex;
@@ -71,9 +80,18 @@ h4{
   font-size: 1.25rem;
   background-color: burlywood;
   height: 40px;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
   line-height: 50px;
+}
+
+footer {
+  text-align: center;
 }
 
 .App {

@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
-
+import IngredientItem from './IngredientItem.js';
+import ingredients from './ingredients.js';
 class IngredientsList extends Component {
     state = {  }
     render() { 
         return ( 
-            <label>
-                <input type='checkbox'></input> 
-                {this.props.amount} {this.props.item}
-            </label>
+            <section className='ingredient-panel'>
+                <div className='ingredient-list'>
+                    {ingredients.map(item => {
+                        return <IngredientItem key={item.id} amount={item.amount} item={item.item} />
+                    })}
+                </div>
+            </section>
          );
     }
 }

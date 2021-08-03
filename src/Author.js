@@ -4,7 +4,7 @@ import vanImg from './assets/van-pic.png'
 class Author extends Component {
     render() { 
         return ( 
-            <div className='author-section'>
+            <section className='author-section'>
                 <img alt='Vanessa' src={vanImg}></img>
                 <div>
                     <h4>
@@ -15,9 +15,9 @@ class Author extends Component {
                     </p>
                 </div>    
                 <p className='share-button'>
-                    SHARE RECIPE
+                    SHARE
                 </p>
-            </div>
+            </section>
         );
     }
 }
